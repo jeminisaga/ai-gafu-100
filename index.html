@@ -108,6 +108,7 @@ function open1(it){
 }
 function copy(t){navigator.clipboard.writeText(t).then(()=>{const e=document.getElementById('toast');e.classList.add('on');setTimeout(()=>e.classList.remove('on'),1200)})}
 draw();
+const h=parseInt((location.hash||'').slice(1)); if(h){const it=DATA.items.find(x=>x.no===h); if(it) open1(it);}
 </script>
 </body>
 </html>
