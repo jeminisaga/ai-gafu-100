@@ -53,6 +53,15 @@ footer a{color:var(--red);font-weight:700}
 .cta.k{background:var(--ink)}
 .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 18px;border-radius:999px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:99}
 .toast.on{opacity:1}
+html,body{overflow-x:hidden;max-width:100%}
+img{max-width:100%}
+@media (max-width:600px){
+ header{padding:20px 14px 6px} main{padding:12px 14px 30px} .bar .in{padding:8px 14px}
+ .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .tab{padding:6px 11px;font-size:13px} #q{min-width:0;width:100%}
+ dialog{width:94vw}
+ .ds{font-size:11px}
+}
 </style>
 </head>
 <body>
